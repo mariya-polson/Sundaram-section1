@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap");
+body {
+  font-family: "Asap", sans-serif;
+}
+
+.navbar {
+  background-color: #214a8c;
+}
+.navbar a.nav-link,
+.navbar span.sign-in {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #eff3f8;
+  font-weight: 500;
+}
+.navbar i.fa-search {
+  color: #ffffff;
+  margin: 0 1rem 0 6rem;
+}
+.navbar .nav-item {
+  margin: 0 0 0 1rem;
+}
+
+.first-section {
+  background: url(../images/first-background.png) no-repeat;
+  background-size: cover;
+}
+.first-section #collapseExample {
+  position: absolute;
+  right: 185px;
+}
+.first-section #collapseExample .search-toggle {
+  background-color: transparent;
+}
+.first-section #collapseExample .search-toggle input[type=text] {
+  background: url(../images/search-arrow.png) no-repeat;
+  background-position: 136px;
+  border: none;
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ffffff;
+}
+.first-section .buying {
+  padding-top: 10rem;
+}
+.first-section .buying h2.heading-1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.first-section .buying h5.heading-2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.first-section .buying h4.heading-3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.first-section .buying button.apply {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #f5ae18;
+  border-radius: 20px;
+  width: 158px;
+  height: 40px;
+}
+.first-section .buying h6.heading-4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 4rem;
+}
+.first-section .flex-row {
+  position: relative;
+  top: 67px;
+}
+.first-section .flex-row .blue-card,
+.first-section .flex-row .green-card {
+  background: #1691db;
+  box-shadow: -0.87px 0.5px 30px rgba(63, 153, 186, 0.2);
+}
+.first-section .flex-row .blue-card img.card-img-top,
+.first-section .flex-row .green-card img.card-img-top {
+  width: 45px;
+  height: 45px;
+  margin: 1rem auto;
+}
+.first-section .flex-row .blue-card .card-title,
+.first-section .flex-row .green-card .card-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+.first-section .flex-row .blue-card ul,
+.first-section .flex-row .green-card ul {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  list-style: none;
+  text-transform: capitalize;
+}
+.first-section .flex-row .blue-card ul li,
+.first-section .flex-row .green-card ul li {
+  position: relative;
+}
+.first-section .flex-row .blue-card ul li::before,
+.first-section .flex-row .green-card ul li::before {
+  position: absolute;
+  left: -1.2em;
+  bottom: 0.5rem;
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ffe624;
+  border-radius: 50%;
+}
+.first-section .flex-row .green-card {
+  background: #1cbbb4;
+  box-shadow: -0.87px 0.5px 30px rgba(63, 153, 186, 0.2);
+  margin: 0 0 0 18px;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #ffffff;
+  background-color: #f5ae18;
+  border: none;
+}
+
+.btn:first-child:hover,
+:not(.btn-check) + .btn:hover {
+  color: #ffffff;
+  background-color: #f5ae18;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
